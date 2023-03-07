@@ -1,1 +1,6 @@
-# Architectural Decision Records for BCC IT Projects
+---
+title: Decision Records for BCC IT
+home: true
+---
+
+# Introduction
