@@ -21,10 +21,8 @@ jobs:
       - name: Build documentation site
         uses: bcc-code/bcc-documentation-base@v2
         with:
-          title: BCC Developer Portal
+          title: BCC Decision Records
           description: Technical documentation and guides for software development in BCC
           collapse-sidebar: true
-          auto-register-components: true
-          components-dir: .vuepress/components
           branch: main
           base: /bcc-decision-records
