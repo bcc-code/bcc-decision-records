@@ -132,6 +132,7 @@ export default {
     transition: background-color var(--t-color);
     box-sizing: border-box;
     border-right: 0;
+    max-width: 60%;
 }
 
 
