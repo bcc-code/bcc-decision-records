@@ -29,8 +29,9 @@ export default {
     
   },
   computed: {
-    adrTemplate() {
-      
+    adrTemplate() {      
+      if(!this.isMounted)
+        return;
       console.log(this.$refs.adrTemplate);
       return this.$refs.adrTemplate ? this.$refs.adrTemplate.value : "[TITLE]";
     },
