@@ -14,15 +14,15 @@ export default {
   data: function () {
     return {
       adrName: 'Enter name',
-      adrTemplate: `
-     
+      adrTemplate: 
+` 
 # [TITLE]
 
-### Test
+## Test
 
 ### Test2
       
-      `
+`
     }
   },
   methods: {
@@ -41,12 +41,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-div {
-  width: 100%;
-  max-width: 600px;
-  margin-bottom: 50px;
-}
-textarea {
 
-}
 </style>
