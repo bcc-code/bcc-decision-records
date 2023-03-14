@@ -23,7 +23,7 @@ export default {
   data: function () {
     return {
       adrName: "Enter name",
-      adrTemplate
+      adrTemplate: null
     }
   },
   methods: {
