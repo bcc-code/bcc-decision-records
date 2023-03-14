@@ -1,6 +1,6 @@
 <template>
 
-<div style="text-align: center; margin-right: auto; margin-left: auto;">
+<div style="margin-right: auto; margin-left: auto;">
   <input type="text" @focus="$event.target.select()" class="action-input" v-model="adrName">
   <button @click="createADR" class="action-button primary" aria-label="Create Decision Record!">
       Create
