@@ -5,6 +5,14 @@
     Create Decision Record
 </a>
 
+<textarea v-model="adrTemplate">
+# [TITLE]
+
+### Test
+
+### Test2
+
+</textarea>
 
 
 </template>
@@ -14,7 +22,8 @@ export default {
   name: 'addADR',
   data: function () {
     return {
-      adrName: "Enter name"
+      adrName: "Enter name",
+      adrTemplate
     }
   },
   methods: {
@@ -22,7 +31,10 @@ export default {
   },
   computed: {
     url() {
-        return 
+        let name = this.adrName;
+        let urlName = this.adrName.replace(' ','-').toLowerCase();
+        var encodedContent = encodeURIComponent(this.adrTemplate.replace('[TITLE]', name))
+        return `https://github.com/bcc-code/bcc-decision-records/new/main?filename=docs/Current/${urlName}.md&value=${encodedContent}`
     }
   }
 }
