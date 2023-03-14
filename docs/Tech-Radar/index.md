@@ -1,3 +1,8 @@
+---
+title: BCC Technology Radar
+home: false
+---
+
 # BCC Technology Radar
 
 <TechRadar />
