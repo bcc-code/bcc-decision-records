@@ -4,9 +4,9 @@
  - As we decided to use Oauth as standard mean of authorization, we should align on how are we going to name our scopes
  
 ## Propositions
-- [Jakub] ```<VERB>:<ENTITY>.<SUBENTITY>```, e.g. ```read:org```, ```read:person.email```
-- [Philip previously]: ```<SYSTEM>.<ENTITY/SUBENTITY>_<VERB>```, e.g. ```members.email_read```
-- [Reng]: ```[<TENANT>:]<ENTITY>.<SUBENTITY>:<VERB>```, e.g. ```org:read```, ```bccoslofollo:person.email:read``` , ```bcctonsberg:registrations:admin```. Alternatively TENANT could be it's own scope e.g. ```bccpoland``` which is used in _combination_ with other scopes.
+- Alt #1: ```<VERB>:<ENTITY>.<SUBENTITY>```, e.g. ```read:org```, ```read:person.email```
+- Alt #2: ```<SYSTEM>.<ENTITY/SUBENTITY>_<VERB>```, e.g. ```members.email_read```
+- Alt #3:```[<TENANT>:]<ENTITY>.<SUBENTITY>:<VERB>```, e.g. ```org:read```, ```bccoslofollo:person.email:read``` , ```bcctonsberg:registrations:admin```. Alternatively TENANT could be it's own scope e.g. ```bccpoland``` which is used in _combination_ with other scopes.
 
 ## Decision 
 `<Entity>[.<SubEntity>]#<Permission>`
@@ -22,8 +22,4 @@ For reading we use (snakecase)
 
 Scopes and permissions are defined and configured by Terraform and shouldn't be maintained manually.
 
-## Consequences 
-See conversation below.
 
-## Alternatives 
-See conversation below.
