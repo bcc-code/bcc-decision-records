@@ -35,13 +35,13 @@ The system must:
 2. have a billing model we can understand and control
 	* Think that "search as you type" can produce *many* queries
 	* Preferably something that does not scale linearly with number of requests
-1. be a mature product that we have reason to believe will be maintained for the next 3-5 years at least
-2. be able to comply with GDPR (EU hosting at a minimum)
-3. be reasonably easy to use for a developer (no need a math degree to understand what's going on)
+3. be a mature product that we have reason to believe will be maintained for the next 3-5 years at least
+4. be able to comply with GDPR (EU hosting at a minimum)
+5. be reasonably easy to use for a developer (no need a math degree to understand what's going on)
+6. be able to define clear access rules, preferably linked to AD
 
 It should support the following features (loosely ordered by priority):
 
-* Permissions
 * Multiple languages (stemming, stop words, etc)
 * Fuzzy search
 * Faceting
@@ -55,7 +55,7 @@ It should support the following features (loosely ordered by priority):
 The alternatives that need closer investigation are:
 
 * [Elastic Search](https://www.elastic.co/)
-* [Azure Cognitive Search](https://azure.microsoft.com/en-us/products/search/)
+* [Azure Cognitive Search](https://azure.microsoft.com/en-us/products/search/) - [Evaluation](./01-search-server/azure-cognitive-search.md)
 * [AWS CloudSearch](https://aws.amazon.com/cloudsearch/)
 * [TypeSense](https://typesense.org/)
 * [Sphinx](http://sphinxsearch.com)
@@ -66,6 +66,8 @@ Other alternatives that have been disqualified already:
 
 * Apache Solr
 	* This is the core of Elastic Search so it does not provide lots of convenient tooling that one gets with ES
+* Apache Lucene	
+	* Is what solr is built on so, even more low level than Solr
 * [Algolia](https://algolia.com)
 	* [Limit on record size](https://support.algolia.com/hc/en-us/articles/4406981897617-Is-there-a-size-limit-for-my-index-records-)
 	* Direct scaling with number of requests
