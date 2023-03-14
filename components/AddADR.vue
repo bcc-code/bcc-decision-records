@@ -19,6 +19,14 @@ export default {
 ` 
 # [TITLE]
 
+---
+**Instructions**
+1. [] Fill in description
+2. [] Commit file to a *new* branch
+3. [] Create a pull-request and add stakeholders as reviewers
+4. [] Merge pull-request once a decision has been made
+---
+
 **Status**: [Assess|Trial|Adopt|Hold]
 
 ## Description
@@ -34,11 +42,11 @@ export default {
 [TODO: Description and analysis of alternatives]
 
 ### Summary
-| #      | Title                                   | Security         | Delivery       | Sustainability |    
-| ------ | --------------------------------------- | ------------     | ----------     | ----------     |   
-| 1      |                                         | ✅              |  ✅            |                |                          
-| 2      |                                         | ❌              |                |  ❌            |     
-| 3      |                                         | ✅              |  ❌            |  ✅            |     
+| #      | Title                                   | Security         | Delivery     | Sustainability |    
+| ------ | --------------------------------------- | ------------     | ----------   | ----------     |   
+| 1      |                                         | ✅              |              |                |                          
+| 2      |                                         | ❌              |              |                |     
+| 3      |                                         | ✅              |              |                |     
 
 ### Alt 1: [Title]
 [Description]
