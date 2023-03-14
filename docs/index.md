@@ -11,11 +11,15 @@ By following a process that encourages input from multiple participants we can b
 
 A commitment to using the same technologies, processes, tools etc. can have a positive impact on productivity, security and knowledge sharing accross teams.
 
+<AddADR />
+
 ### ⭐ Decision Criteria
 
+::: info
 In general, decisions should be optimised to allow us to deliver services securely and efficiently - they should result in saved time without compromising security.
+:::
 
-The risk/benefits associated with the point should be evaluated:
+The risk/benefits associated with the points below should be evaluated:
 
 🔒 **Security**: data protection  
 How will alternatives impact ability to ensure and maintain data *access control* and *integrity*?
@@ -32,7 +36,7 @@ Decisions can be made following the process below. After each step, request feed
 
 #### Roles
 
-**Initiator**: person/team who would like a decision made. This can be __anyone__!
+**Initiator**: person/team who would like a decision made. This can be __anyone__!  
 **Decision Board**: IT Manager + BCC Media Tech Lead + Initiator
 
 #### Process
@@ -43,20 +47,22 @@ Decisions can be made following the process below. After each step, request feed
 ✔ **Trial**: try in practice *(initiator)*  
 ✔ **Adopt**: (yes/no) - based on trial *(decision board)*  
 
-::: tip
-
-1. The process is started by creating a new *markdown* file defining the decision to be made.
-
-2. The markdown file is updated as the prosess progresses. Changes can be submitted as a "pull-request" that stakeholders are asked to review.
-
-:::
-
-### ✍ New Decision
+#### ✍ New Decision
 
 Start the process for a new decision:
 
 <AddADR />
-⌛
+
+::: tip
+
+1. The process is started by creating a new *markdown* file defining the decision to be made.
+
+2. The markdown file is updated as the prosess progresses.  
+
+3. Changes can be submitted as a **pull-request** that potential stakeholders are asked to review.
+
+:::
+
 ## Current Tech Radar
 
 <div style="center">
