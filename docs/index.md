@@ -4,3 +4,9 @@ home: true
 ---
 
 # Introduction
+
+<AddADR />
+
+## Tech Radar
+
+<TechRadar />
