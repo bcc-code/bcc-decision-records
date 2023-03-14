@@ -2,9 +2,9 @@
 
 <div style="text-align: center; margin-right: auto; margin-left: auto;">
   <input type="text" @focus="$event.target.select()" class="action-input" v-model="adrName">
-  <a :href="url" class="action-button primary" aria-label="Create Decision Record!">
+  <button @click="window.open(url)" class="action-button primary" aria-label="Create Decision Record!">
       Create
-  </a>
+  </button>
 </div>
 
 </template>
@@ -100,7 +100,7 @@ export default {
     display: inline-block;
     font-size: 1.2rem;
     padding: .8rem 1.6rem;
-    border-width: 0px;
+    border-width: 2px;
     border-style: solid;
     border-radius: 4px;
     transition: background-color var(--t-color);
@@ -121,6 +121,7 @@ export default {
     border-bottom-right-radius: 0;
     transition: background-color var(--t-color);
     box-sizing: border-box;
+    border-right: 0;
 }
 
 
