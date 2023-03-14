@@ -1,10 +1,11 @@
 <template>
 
-<input type="text" class="action-input" v-model="adrName">
-<a :href="url" class="action-button primary" aria-label="Create Decision Record!">
-    Create
-</a>
-
+<div style="text-align: center; margin-right: auto; margin-left: auto;">
+  <input type="text" @focus="$event.target.select()" class="action-input" v-model="adrName">
+  <a :href="url" class="action-button primary" aria-label="Create Decision Record!">
+      Create
+  </a>
+</div>
 
 </template>
 
@@ -18,9 +19,62 @@ export default {
 ` 
 # [TITLE]
 
-## Test
+**Status**: [Assess|Trial|Adopt|Hold]
 
-### Test2
+## Description
+[TODO: Description of decision to be made]
+
+### Context
+[TODO: Scope and context decision applies to]
+
+### Background
+[TODO: Reason for wanting a decision]
+
+## Alternatives
+[TODO: Description and analysis of alternatives]
+
+### Summary
+| #      | Title                                   | Security         | Delivery       | Sustainability |    
+| ------ | --------------------------------------- | ------------     | ----------     | ----------     |   
+| 1      |                                         | ✅              |  ✅            |                |                          
+| 2      |                                         | ❌              |                |  ❌            |     
+| 3      |                                         | ✅              |  ❌            |  ✅            |     
+
+### Alt 1: [Title]
+[Description]
+
+**Risks**  
+
+**Benefits**  
+
+
+### Alt 2: [Title]
+[Description]
+
+**Risks**  
+
+**Benefits**  
+
+
+
+### Alt 3: [Title]
+[Description]
+
+**Risks**  
+
+**Benefits**  
+
+
+## Assessment
+[TODO: Preliminary assessment based on assessment criteria]
+
+
+## Trial
+[TODO: Document experience after trialing]
+
+
+## Decision
+[TODO: Document final decision and update tech radar]
       
 `
     }
@@ -46,11 +100,13 @@ export default {
     display: inline-block;
     font-size: 1.2rem;
     padding: .8rem 1.6rem;
-    border-width: 2px;
+    border-width: 0px;
     border-style: solid;
     border-radius: 4px;
     transition: background-color var(--t-color);
-    box-sizing: border-box
+    box-sizing: border-box;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
 .action-input {
@@ -61,6 +117,8 @@ export default {
     border-width: 2px;
     border-style: solid;
     border-radius: 4px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
     transition: background-color var(--t-color);
     box-sizing: border-box
 }
@@ -74,6 +132,7 @@ export default {
 
 .action-button.primary:hover {
     background-color: var(--c-brand-light)
+    text-decoration: none;
 }
 
 .action-button.secondary {
