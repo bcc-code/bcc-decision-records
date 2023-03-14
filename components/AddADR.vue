@@ -34,3 +34,4 @@ div {
   max-width: 600px;
   margin-bottom: 50px;
 }
+</style>
