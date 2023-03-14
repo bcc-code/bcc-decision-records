@@ -40,6 +40,7 @@ Decisions can be made following the process below. After each step, request feed
 #### Roles
 
 **Initiator**: person/team who would like a decision made. This can be __anyone__!  
+**Stakeholder**: any person/team who will be affected by the decsion and has an opinion about it.  
 **Decision Board**: IT Manager + BCC Media Tech Lead + Initiator
 
 #### Process
@@ -57,6 +58,8 @@ Decisions can be made following the process below. After each step, request feed
 2. The markdown file is updated as the prosess progresses.  
 
 3. Changes can be submitted as a **pull-request** that potential stakeholders are asked to review.
+
+4. Potential stakeholders should be notified through channels such as Discord and/or Teams
 
 :::
 

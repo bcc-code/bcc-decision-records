@@ -24,7 +24,8 @@ export default {
 1. [] Fill in description
 2. [] Commit file to a *new* branch
 3. [] Create a pull-request and add stakeholders as reviewers
-4. [] Merge pull-request once a decision has been made
+4. [] Publish information about the ongoing decision process to Teams and/or Discord
+5. [] Merge pull-request once a decision has been made
 ---
 
 **Status**: [Assess|Trial|Adopt|Hold]
