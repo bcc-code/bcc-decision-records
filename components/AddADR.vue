@@ -2,7 +2,7 @@
 
 <div style="text-align: center; margin-right: auto; margin-left: auto;">
   <input type="text" @focus="$event.target.select()" class="action-input" v-model="adrName">
-  <button @click="window.open(url)" class="action-button primary" aria-label="Create Decision Record!">
+  <button @click="createADR" class="action-button primary" aria-label="Create Decision Record!">
       Create
   </button>
 </div>
@@ -80,7 +80,9 @@ export default {
     }
   },
   methods: {
-    
+    createADR() {
+      window.open(this.url, '_blank');
+    }
   },
   computed: {
     url() {
