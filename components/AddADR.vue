@@ -30,7 +30,9 @@ export default {
   },
   computed: {
     adrTemplate() {
-      return this.$refs.adrTemplate.value;
+      
+      console.log(this.$refs.adrTemplate);
+      return this.$refs.adrTemplate ? this.$refs.adrTemplate.value : "[TITLE]";
     },
     url() {
         let name = this.adrName;
@@ -49,6 +51,6 @@ div {
   margin-bottom: 50px;
 }
 textarea {
-  display: none;
+
 }
 </style>
