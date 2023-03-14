@@ -120,18 +120,18 @@ export default {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     transition: background-color var(--t-color);
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 
 .action-button.primary {
     color: var(--c-bg);
     background-color: var(--c-brand);
-    border-color: var(--c-brand)
+    border-color: var(--c-brand);
 }
 
 .action-button.primary:hover {
-    background-color: var(--c-brand-light)
+    background-color: var(--c-brand-light);
     text-decoration: none;
 }
 
@@ -143,6 +143,6 @@ export default {
 
 .action-button.secondary:hover {
     color: var(--c-bg);
-    background-color: var(--c-brand-light)
+    background-color: var(--c-brand-light);
 }
 </style>
