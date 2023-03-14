@@ -1,6 +1,8 @@
 ---
-title: Decision Records for BCC IT
+title: Overview
 ---
+
+# Decision Records for BCC IT
 
 The purpose of *decision records* is both to document organisation-wide decisions and to provide a process for making these decisions.
 
