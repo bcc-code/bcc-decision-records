@@ -10,11 +10,13 @@ By following a process that encourages input from multiple participants we can b
 
 A commitment to using the same technologies, processes, tools etc. can have a positive impact on productivity, security and knowledge sharing accross teams.
 
+### ⭐ New Decision
+
 <br />
 <AddADR />
 <br />
 
-### ⭐ Decision Criteria
+### 🎯 Decision Criteria
 
 ::: tip
 In general, decisions should be optimised to allow us to deliver services securely and efficiently - they should result in saved time without compromising security.
@@ -58,7 +60,7 @@ Decisions can be made following the process below. After each step, request feed
 
 :::
 
-#### Guidelines
+### 🤔 Guidelines
 
 **When do we *need* a decision?**  
 
@@ -71,7 +73,9 @@ Decisions can be made following the process below. After each step, request feed
 * If the idea is abstract and lacks clear context
 * If the idea is not immediately applicable
 
-## Current Tech Radar
+## 📡 Tech Radar
+
+[More about tech radar](Tech-Radar/index.md)
 
 <div style="center">
     <TechRadar />
