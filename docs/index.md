@@ -37,15 +37,15 @@ How will alternatives impact long term operational costs and (in)dependence on a
 
 Decisions can be made following the process below. After each step, request feedback from potential stakeholders!
 
-### Roles
+#### Roles
 
 **Initiator**: person/team who would like a decision made. This can be __anyone__!  
 **Decision Board**: IT Manager + BCC Media Tech Lead + Initiator
 
-### Process
+#### Process
 
 ✔ **Define**: decision, criteria and context *(anyone)*  
-✔ **Investigate**: find alternatives *(initiator)*
+✔ **Investigate**: find alternatives *(initiator)*  
 ✔ **Assess**: based on criteria *(initiator + decision board)*  
 ✔ **Trial**: try in practice *(initiator)*  
 ✔ **Adopt**: (yes/no) - based on trial *(decision board)*  -> Add to tech radar
