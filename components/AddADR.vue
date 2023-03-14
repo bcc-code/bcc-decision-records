@@ -1,8 +1,8 @@
 <template>
 
-<input type="text" v-model="adrName">
+<input type="text" class="action-input" v-model="adrName">
 <a :href="url" class="action-button primary" aria-label="Create Decision Record!">
-    Start
+    Create
 </a>
 
 
@@ -13,7 +13,7 @@ export default {
   name: 'addADR',
   data: function () {
     return {
-      adrName: 'Enter name',
+      adrName: 'Enter Decision Name',
       adrTemplate: 
 ` 
 # [TITLE]
@@ -42,4 +42,48 @@ export default {
 
 <style lang="scss" scoped>
 
+.action-button {
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: .8rem 1.6rem;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 4px;
+    transition: background-color var(--t-color);
+    box-sizing: border-box
+}
+
+.action-input {
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: .8rem 1.6rem;
+    margin-right: 0;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 4px;
+    transition: background-color var(--t-color);
+    box-sizing: border-box
+}
+
+
+.action-button.primary {
+    color: var(--c-bg);
+    background-color: var(--c-brand);
+    border-color: var(--c-brand)
+}
+
+.action-button.primary:hover {
+    background-color: var(--c-brand-light)
+}
+
+.action-button.secondary {
+    color: var(--c-brand);
+    background-color: var(--c-bg);
+    border-color: var(--c-brand)
+}
+
+.action-button.secondary:hover {
+    color: var(--c-bg);
+    background-color: var(--c-brand-light)
+}
 </style>

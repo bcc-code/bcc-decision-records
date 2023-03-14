@@ -1,6 +1,5 @@
 ---
 title: Decision Records for BCC IT
-home: true
 ---
 
 ## Introduction
@@ -15,7 +14,7 @@ A commitment to using the same technologies, processes, tools etc. can have a po
 
 ### ⭐ Decision Criteria
 
-::: info
+::: tip
 In general, decisions should be optimised to allow us to deliver services securely and efficiently - they should result in saved time without compromising security.
 :::
 
@@ -30,7 +29,7 @@ How will alternatives impact ability to deliver *reliable* services/applications
 ♻ **Sustainability**: optimize cost and risk  
 How will alternatives impact long term operational costs and (in)dependence on an individual's know-how?
 
-### Decision Process
+### ✍ Decision Process
 
 Decisions can be made following the process below. After each step, request feedback from potential stakeholders!
 
@@ -45,13 +44,7 @@ Decisions can be made following the process below. After each step, request feed
 ✔ **Investigate**: find alternatives *(initiator)*
 ✔ **Assess**: based on criteria *(initiator + decision board)*  
 ✔ **Trial**: try in practice *(initiator)*  
-✔ **Adopt**: (yes/no) - based on trial *(decision board)*  
-
-#### ✍ New Decision
-
-Start the process for a new decision:
-
-<AddADR />
+✔ **Adopt**: (yes/no) - based on trial *(decision board)*  -> Add to tech radar
 
 ::: tip
 
