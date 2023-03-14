@@ -5,7 +5,7 @@
     Create Decision Record
 </a>
 
-<textarea v-model="adrTemplate">
+<textarea ref="adrTemplate">
 # [TITLE]
 
 ### Test
@@ -22,14 +22,16 @@ export default {
   name: 'addADR',
   data: function () {
     return {
-      adrName: "Enter name",
-      adrTemplate: null
+      adrName: "Enter name"
     }
   },
   methods: {
     
   },
   computed: {
+    adrTemplate() {
+      return this.$refs.adrTemplate.value;
+    },
     url() {
         let name = this.adrName;
         let urlName = this.adrName.replace(' ','-').toLowerCase();
@@ -45,5 +47,8 @@ div {
   width: 100%;
   max-width: 600px;
   margin-bottom: 50px;
+}
+textarea {
+  display: none;
 }
 </style>
