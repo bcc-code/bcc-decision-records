@@ -16,7 +16,7 @@ If anything is not on the radar it means that we have never considered it seriou
 
 ## How To Add
 
-Edit [tech-radar.js](/components/tech-radar.js) and add your technology to the `technologies` array.
+Edit [tech-radar.js](https://github.com/bcc-code/bcc-decision-records/edit/main/components/tech-radar.js) and add your technology to the `technologies` array.
 You'll have to pick a category (frameworks, languages, tools, platform, techniques) and a status (hold, assess, trial, adopt).
 
 ## More Information
