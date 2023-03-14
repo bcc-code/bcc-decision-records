@@ -3,10 +3,19 @@ title: Decision Records for BCC IT
 home: true
 ---
 
-# Introduction
+## Introduction
+
+### Decision Process
+
+### Criteria
+
+
+### Create a New Decision Record
 
 <AddADR />
 
-## Tech Radar
+## Current Tech Radar
 
-<TechRadar />
+<div style="center">
+    <TechRadar />
+</div>
