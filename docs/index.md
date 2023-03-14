@@ -58,6 +58,19 @@ Decisions can be made following the process below. After each step, request feed
 
 :::
 
+#### Guidelines
+
+**When do we *need* a decision?**  
+
+* If there is a foreseeable impact on security, sustainability or value
+* If competing solutions are used within the organization
+* If there is foreseeable benefit for other teams/parts of the organisation
+
+**When should we *postpone* decision processes?**  
+
+* If the idea is abstract and lacks clear context
+* If the idea is not immediately applicable
+
 ## Current Tech Radar
 
 <div style="center">
