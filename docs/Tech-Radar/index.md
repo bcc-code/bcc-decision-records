@@ -1,5 +1,5 @@
 ---
-title: BCC Technology Radar
+title: Technology Radar
 home: false
 ---
 

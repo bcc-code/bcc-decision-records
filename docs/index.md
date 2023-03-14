@@ -2,21 +2,19 @@
 title: Decision Records for BCC IT
 ---
 
-## Introduction
-
 The purpose of *decision records* is both to document organisation-wide decisions and to provide a process for making these decisions.
 
 By following a process that encourages input from multiple participants we can both improve the quality of decisions made - and commit to these decisions.
 
 A commitment to using the same technologies, processes, tools etc. can have a positive impact on productivity, security and knowledge sharing accross teams.
 
-### ⭐ New Decision
+## ⭐ New Decision
 
 <br />
 <AddADR />
 <br />
 
-### 🎯 Decision Criteria
+## 🎯 Decision Criteria
 
 ::: tip
 In general, decisions should be optimised to allow us to deliver services securely and efficiently - they should result in saved time without compromising security.
@@ -33,16 +31,16 @@ How will alternatives impact ability to deliver *reliable* services/applications
 ♻ **Sustainability**: optimize cost and risk  
 How will alternatives impact long term operational costs and (in)dependence on an individual's know-how?
 
-### ✍ Decision Process
+## ✍ Decision Process
 
 Decisions can be made following the process below. After each step, request feedback from potential stakeholders!
 
-#### Roles
+### Roles
 
 **Initiator**: person/team who would like a decision made. This can be __anyone__!  
 **Decision Board**: IT Manager + BCC Media Tech Lead + Initiator
 
-#### Process
+### Process
 
 ✔ **Define**: decision, criteria and context *(anyone)*  
 ✔ **Investigate**: find alternatives *(initiator)*
@@ -60,7 +58,7 @@ Decisions can be made following the process below. After each step, request feed
 
 :::
 
-### 🤔 Guidelines
+## 🤔 Guidelines
 
 **When do we *need* a decision?**  
 
