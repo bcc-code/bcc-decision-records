@@ -52,8 +52,22 @@ Yes, many integrations/SDKs provided
 
 8/8 Points
 
+## Technical test
+
+Easy to install, but hard to get going. There is no "default" interface so everything is API based, which is a bit annoying for initial exploration but should not matter much for a production deoployment.
+
+Import mostly went ok. Automatic schema detection was ok, can then easily be used to customize and re import with a custom schema.
+
+Search speed is ok but nothing mindblowing.
+
+### Issues
+
+* field names seem to have special meanings. For example a field called `text` must be a string. This does not inspire confidence.
+* any changes to schema are slow
+* facets need to be pre-defined
+* result format is somewhat verbose
+	* import of alternative format failed due to point 1
+
 ## Summary
 
-Not a super known actor, but seems very interesting.
-
-TODO: Do an actual test with our data
+Very interesting on paper, unfortunately lacking in execution when compared to Elastic.
