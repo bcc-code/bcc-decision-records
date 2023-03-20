@@ -58,7 +58,6 @@ The alternatives that need closer investigation are:
 * [Azure Cognitive Search](https://azure.microsoft.com/en-us/products/search/) - [Evaluation](./01-search-server/azure-cognitive-search.md)
 * [AWS CloudSearch](https://aws.amazon.com/cloudsearch/)
 * [TypeSense](https://typesense.org/)
-* [Sphinx](http://sphinxsearch.com)
 * [MeiliSearch](https://github.com/meilisearch/meilisearch)
 * [ManticoreSearch](https://github.com/manticoresoftware/manticoresearch)
 
@@ -72,7 +71,9 @@ Other alternatives that have been disqualified already:
 	* [Limit on record size](https://support.algolia.com/hc/en-us/articles/4406981897617-Is-there-a-size-limit-for-my-index-records-)
 	* Direct scaling with number of requests
 	* Focused on E-Commerce so partially not very flexible
-	
+* [Sphinx](http://sphinxsearch.com)
+	* Is the predecessor upon which ManticoreSearch is built
+
 ## Decision
 
 PENDING
