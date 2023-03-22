@@ -16,7 +16,7 @@ A commitment to using the same technologies, processes, tools etc. can have a po
 <AddADR />
 <br />
 
-See (pending decision records)[https://github.com/bcc-code/bcc-decision-records/pulls]
+See [pending decision records](https://github.com/bcc-code/bcc-decision-records/pulls)
 
 ## 🎯 Decision Criteria
 
