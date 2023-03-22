@@ -17,7 +17,8 @@ export default {
       adrName: 'Enter Decision Name',
       adrTemplate: 
 ` 
-# [TITLE]
+ 
+# Enter Decision Name
 
 ---
 **Instructions**
@@ -47,7 +48,28 @@ export default {
 | ------ | --------------------------------------- | ------------     | ----------   | ----------     |   
 | 1      |                                         | ✅              |              |                |                          
 | 2      |                                         | ❌              |              |                |     
-| 3      |                                         | ✅              |              |                |     
+| 3      |                                         | ✅              |              |                |    
+
+---
+**RISK/BENEFIT CHECKLIST**
+
+**Security**    
+1. [] Governance: e.g. federated access control? 
+2. [] Legal: e.g GDPR compliance?
+3. [] Reputation: Security track record?
+4. [] Simplicity: easy evaluate security?
+
+**Delivery** 
+5. [] Velocity: will we develop products faster?
+6. [] Unique: does the solution provide new features/value?
+7. [] Reliability: is the solution scalable and robust?
+
+**Sustainability**
+5. [] Know-how: is it main stream, well-documented solution?
+6. [] Redundance: are we already using competing solutions?
+7. [] Cost: what are the long term running costs?
+
+---
 
 ### Alt 1: [Title]
 [Description]
