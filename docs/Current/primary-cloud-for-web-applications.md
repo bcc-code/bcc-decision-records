@@ -133,7 +133,10 @@ In addition, synchronizing users and groups from Azure to GCP has proved to work
 
 For specific applications (such as self-service BI), Azure is probably still a better platform whereas for some niche services (like streaming) other platforms (AWS) are more suitable.
 
-The recommendation for "trial" is to make GCP the "default" cloud for container-based web apps, and work on developing best practices for monitoring and tracing.
+The recommendation for "trial" is to make GCP the "default" cloud for container-based web apps, and work on:
+1. Developing best practices for monitoring and tracing.
+2. Investigate sharing resources (specifically Redis and Postgresql) on GCP
+3. Investigate performance concerns with CloudSQL (can we get pgBouncer setup?)
 
 ## Trial
 [TODO: Document experience after trialing]
