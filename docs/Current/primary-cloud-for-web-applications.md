@@ -103,6 +103,8 @@ GCP is developed by Google and in _general_ the following can be said of GCP:
 3. No presence in Norway (yet)
 4. Poorer monitoring experience
 5. Need to manage security, costs etc. in multiple clouds (due to corporate applications)
+6. Much harder to get an overview of resources (discovery) compared to Azure
+7. Less mature reporting (cost, monitoring etc.)
 
 **Benefits**  
 1. In general, cheaper and robust services (e.g. cloud run)
@@ -125,7 +127,7 @@ This is an avenue we haven't fully investigated. In general, the service offerin
 ## Assessment
 Intuitively an organization of our size and complexity should only use **one** cloud. However, since we already are spread accross two clouds and a range of technologies, the best solution becomes somewhat less clear cut.
 
-Specifically for end-user / high volume web applications, GCP is an appealing platform due to it's robust and secure nature. In addition, having applications that "talk" together in the same cloud is good for tracing, latency etc. 
+Specifically for end-user / high volume web applications, GCP is an appealing platform due to it's robust and secure nature. In addition, having applications that "talk" together in the same cloud is good for tracing, latency etc. However, Azure has more advanced admin tooling and a better overview of costs and resources.
 
 In general, the knowlege gained in one cloud, can be transferred to another (at a high level). Keeping the same "types" of applications in the same cloud could be beneficial for reuse of more specific knowledge.
 
@@ -133,10 +135,15 @@ In addition, synchronizing users and groups from Azure to GCP has proved to work
 
 For specific applications (such as self-service BI), Azure is probably still a better platform whereas for some niche services (like streaming) other platforms (AWS) are more suitable.
 
-The recommendation for "trial" is to make GCP the "default" cloud for container-based web apps, and work on:
-1. Developing best practices for monitoring and tracing.
-2. Investigate sharing resources (specifically Redis and Postgresql) on GCP
-3. Investigate performance concerns with CloudSQL (can we get pgBouncer setup?)
+The recommendation for "trial" is to take one or two test projects and deploy the same project to **both clouds**, taking the following into account:
+1. Monitoring and tracing
+2. Startup time + cost
+
+Other things to investigate:
+1. Sharing resources (specifically Redis and Postgresql) on GCP
+2. Performance concerns with CloudSQL (can we get pgBouncer setup?)
+
+
 
 ## Trial
 [TODO: Document experience after trialing]
