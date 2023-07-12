@@ -138,6 +138,7 @@ For specific applications (such as self-service BI), Azure is probably still a b
 The recommendation for "trial" is to take one or two test projects and deploy the same project to **both clouds**, taking the following into account:
 1. Monitoring and tracing
 2. Startup time + cost
+3. Ideally one of the projects should be .Net based and the other project GO-based
 
 Other things to investigate:
 1. Sharing resources (specifically Redis and Postgresql) on GCP
