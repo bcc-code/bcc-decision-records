@@ -44,13 +44,14 @@ export default {
 [TODO: Description and analysis of alternatives]
 
 ### Summary
-| #      | Title                                   | Security         | Delivery     | Sustainability |    
-| ------ | --------------------------------------- | ------------     | ----------   | ----------     |   
-| 1      |                                         | ✅              |              |                |                          
-| 2      |                                         | ❌              |              |                |     
-| 3      |                                         | ✅              |              |                |    
 
----
+| #      | Title                                   | Security         | Delivery     | Sustainability | Usability    |  
+| ------ | --------------------------------------- | ------------     | ----------   | ----------     | ------------ |  
+| 1      |                                         | ✅              |              |                |              |           
+| 2      |                                         | ❌              |              |                |              | 
+| 3      |                                         | ❌              |              |                |              |     
+
+
 **RISK/BENEFIT CHECKLIST**
 
 **Security**    
@@ -69,7 +70,7 @@ export default {
 6. [] Redundance: are we already using competing solutions?
 7. [] Cost: what are the long term running costs?
 
----
+
 
 ### Alt 1: [Title]
 [Description]

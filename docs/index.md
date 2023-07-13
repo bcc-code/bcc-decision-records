@@ -16,6 +16,8 @@ A commitment to using the same technologies, processes, tools etc. can have a po
 <AddADR />
 <br />
 
+See [pending decision records](https://github.com/bcc-code/bcc-decision-records/pulls)
+
 ## 🎯 Decision Criteria
 
 ::: tip
@@ -32,6 +34,9 @@ How will alternatives impact ability to deliver *reliable* services/applications
 
 ♻ **Sustainability**: optimize cost and risk  
 How will alternatives impact long term operational costs and (in)dependence on an individual's know-how?
+
+😁 **User Experience**: useable software 
+How will alternatives impact the usability of the software?
 
 ## ✍ Decision Process
 
