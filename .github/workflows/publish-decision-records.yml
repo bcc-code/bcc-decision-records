@@ -27,3 +27,4 @@ jobs:
           auto-register-components: true
           components-dir: components
           branch: main
+          authentication: 'portal'
