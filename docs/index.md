@@ -1,5 +1,6 @@
 ---
 title: Overview
+sectionTitle: Decision Records
 ---
 
 # Decision Records for BCC IT
