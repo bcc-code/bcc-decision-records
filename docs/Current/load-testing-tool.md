@@ -32,7 +32,7 @@ Points for K6:
 - It has strong community support and extensive documentation.
 - It integrates well with CI/CD pipelines, facilitating automated performance testing.
 - It has a wider usage in the industry, making it easier to find resources and expertise, especially when using AI tools for assistance.
-- It offers cloud execution options, allowing us to scale our tests without significant infrastructure overhead.
+- It offers cloud execution options, allowing us to scale our tests without significant infrastructure overhead. (BCC Fellestjenester has a non profit account on Grafana Cloud with reduced price)
 - Event team has some prior experience with K6, which will help in the initial setup and training.
 
 ## Consequences:
