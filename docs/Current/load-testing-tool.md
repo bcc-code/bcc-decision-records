@@ -1,7 +1,7 @@
  
 # Load Testing Tool Selection
 
-**Status**: Assess
+**Status**: Accepted
 
 ## Description
 
@@ -22,6 +22,7 @@ During development of the Privacy and consents web app, load testing was being d
 4. NBomber
    A .NET-native framework allowing complex multi-step workflows using C#.
 
+Several other tools investigated previously seemed overly complex to work with.
 
 ## Decision: 
 After evaluating the alternatives, we have decided to adopt K6 as our primary load testing tool. K6 offers a good balance of ease-of-use, powerful scripting capabilities, and cloud scalability. Its JavaScript-based scripting is familiar to our developers, and it supports complex user workflows effectively.
